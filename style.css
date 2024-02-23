@@ -92,9 +92,12 @@ span{
         text-align: center;
         transition: height 0.5s ease;
         z-index: 100;
+        border: 2px solid purple;
+
     }
     .navbar ul.show {
         height: 50px;
+        border: 2px solid blue;
     }
     .navbar ul li {
         display: block;
