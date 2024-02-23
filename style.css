@@ -76,7 +76,7 @@ span{
     .navbar {
         padding-left: 5%;
         padding-right: 5%;
-        position: fixed;
+        position: relative;
         width: 100%;
         background-color: whitesmoke;
         z-index: 1000;
