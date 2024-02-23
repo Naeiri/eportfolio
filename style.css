@@ -89,15 +89,12 @@ span{
         background: white;
         top: 118px;
         left: 0;
-        text-align: center;
+        text-align: left;
         transition: height 0.5s ease;
         z-index: 100;
-        border: 2px solid purple;
-
     }
     .navbar ul.show {
-        height: 50px;
-        border: 2px solid blue;
+        height: 100vh;
     }
     .navbar ul li {
         display: block;
@@ -109,7 +106,7 @@ span{
         background: none;
     }
     #check:checked ~ ul {
-        height: 100vh;
+        height: 100px;
     }
     #check:checked ~ .navbar {
         position: relative;
