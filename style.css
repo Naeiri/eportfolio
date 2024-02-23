@@ -94,7 +94,7 @@ span{
         z-index: 100;
     }
     .navbar ul.show {
-        height: 90px;
+        height: 50px;
     }
     .navbar ul li {
         display: block;
