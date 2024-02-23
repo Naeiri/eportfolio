@@ -25,6 +25,13 @@
             document.documentElement.style.scrollBehavior = "smooth";
             }
 
+            function closeMenu() {
+            var checkbox = document.getElementById('check');
+                if (checkbox.checked) {
+                    checkbox.checked = false;
+                }
+            }
+
             function openLightbox(imageSrc) {
                 document.getElementById('lightbox-img').src = imageSrc;
                 document.getElementById('lightbox').style.display = 'flex';
@@ -46,7 +53,7 @@
 
                 <h2 class="logo">Port<span>folio</span></h2>
                 <ul>
-                    <li><a href="#aboutme" onclick="myFunction()">ABOUT ME</a></li>
+                    <li><a href="#aboutme" onclick="myFunction(); closeMenu();">ABOUT ME</a></li>
                     <li><a href="#resume" onclick="myFunction()">RESUME</a></li>
                     <li><a href="#project" onclick="myFunction()">PROJECTS</a></li>
                 </ul>
