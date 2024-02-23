@@ -106,7 +106,8 @@ span{
         background: none;
     }
     #check:checked ~ ul {
-        height: 100vh;
+        /*height: 100vh;*/
+        height: 570px;
     }
     #check:checked ~ .navbar {
         position: relative;
