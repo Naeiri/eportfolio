@@ -94,7 +94,7 @@ span{
         z-index: 100;
     }
     .navbar ul.show {
-        height: 100vh;
+        height: 150px;
     }
     .navbar ul li {
         display: block;
@@ -106,7 +106,7 @@ span{
         background: none;
     }
     #check:checked ~ ul {
-        height: 50%;
+        height: 100vh;
     }
     #check:checked ~ .navbar {
         position: relative;
