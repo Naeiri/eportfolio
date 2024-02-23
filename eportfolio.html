@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Personal Data Porfolio</title>
+        <link rel="icon" href="info-icon.png" type="image/x-icon" />
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <script>
+            function myFunction() {
+            document.documentElement.style.scrollBehavior = "smooth";
+            }
+
+            function openLightbox(imageSrc) {
+                document.getElementById('lightbox-img').src = imageSrc;
+                document.getElementById('lightbox').style.display = 'flex';
+            }
+
+            function closeLightbox() {
+                document.getElementById('lightbox').style.display = 'none';
+            }
+        </script>
+
+        <div class="container-fluid">
+<!--NAVIGATION BAR-->
+            <div id="header" class="navbar">
+
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fa fa-bars"></i>
+                </label>
+
+                <h2 class="logo">Port<span>folio</span></h2>
+                <ul>
+                    <li><a href="#aboutme" onclick="myFunction()">ABOUT ME</a></li>
+                    <li><a href="#resume" onclick="myFunction()">RESUME</a></li>
+                    <li><a href="#project" onclick="myFunction()">PROJECTS</a></li>
+                </ul>
+            </div>
+
+<!--INTRODUCTION TO SELF AND OBJECTIVES-->
+            <div id="intro">
+                <div class="box">
+
+                    <table>
+                        <tr>
+                            <td class="compress">
+                                <img  class="photo" src="IMG20211231214534-modified.png" alt="mirror picture"/>
+                            </td>
+
+                            <td class="compress">
+                                <div class="square1">
+                                    <h1>Hi! I'm <span>Erin Julieanna</span></h1>
+                                    <p>| Web Developer and Web Designer |</p><br>
+                                    <a href="test.pdf" class="resume" role="button" download><i class="fa fa-download" aria-hidden="true"></i> Download Resume</a>
+                                    <a href="#project" class="project" role="button" onclick="myFunction()">Projects</a>
+                                    <p><br><br>Follow Me  |  <a href="https://github.com/Naeiri" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li> | <a href="https://www.linkedin.com/in/erin-julieanna/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a> |
+                                    </p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                
+                </div>
+            </div>
+
+            <div class="subs">
+                <a href="#" class="btn" onclick="myFunction()"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+            </div>
+
+
+<!--ABOUT ME SECTION-->
+            <div id="aboutme">
+                <div class="about">
+                    <h3>ABOUT <span style="color:#db7093">ME</span></h3>
+                    
+                    <table class="abttable">
+                        <tr>
+                            <td>
+                                <div class="subtitle">
+                                    <h6>Hi there! It's nice to meet you. <i class="fa fa-thumbs-up" aria-hidden="true"></i></h6>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="text">
+                                    <p>My full name is <b>Erin Julieanna S. Butlig</b>. I'm currently a college student enrolled in the BSIT (Information Technology) program at the <b>Polytechnic University of the Philippines</b>. My journey into IT began during my freshman year when I found the field fascinating, despite having no prior background.
+                                    <br><br>As I progressed to my third year, I delved into Web Development for the first time. To my surprise, I discovered a genuine passion for it. While I acknowledge that I may be in the early stages of my coding journey, I am enthusiastic about learning and embracing the continuous process of improvement.
+                                    <br><br>Looking ahead, I am excited about the upcoming <b>on-the-job training</b>, where I aim to observe and learn from expert IT professionals. I am eager to gain valuable experiences and insights to further enhance my skills and understanding of the field.</p>
+                                </div>
+                            </td>
+                            
+                            <td>
+                                <div class="collage">
+                                    <img  class="photo1" src="img5.png" alt="mirror picture" onclick="openLightbox('img5.png')"/>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+<!--RESUME SECTION-->
+            <div id="resume">
+                <div class="resumee">
+                    <h5>RESU<span>ME</span></h5>
+
+                    <div class="row2">
+                        <h6><b>Education</b></h6>
+                        <a href="https://drive.google.com/file/d/1duEp7SUM4r7hXHgx49GANAfw2G3CZxbI/view?usp=sharing" class="resume" role="button" target="_blank">View Resume</a>
+                    </div>
+                    
+                    <div class="box1">
+                        <h1><b>2020 - Present</b></h1>
+                        <h4>POLYTECHNIC UNIVERSITY OF THE PHILIPPINES</h4>
+                        <p>Bachelor of Science in Information Technology
+                            <br><br>PUP Main - A. Mabini Campus, Sta. Mesa, Manila, H2X6+MP5, PUP Main Entrance Rd, Santa Mesa, Manila, Metro Manila
+                        </p>
+                    </div>
+
+                    <div class="box2">
+                        <h1><b>2018 - 2020</b></h1>
+                        <h4>MARIKINA POLYTECHNIC COLLEGE</h4>
+                        <p>Science, Technology, Engineering, and Mathematics
+                            <br><br>2 J. Chanyungco St, Marikina, 1800 Metro Manila
+                        </p>
+                    </div>
+                    
+                    <div class="row2">
+                        <h6><b>Skills and Abilities</b></h6>
+                    </div>
+
+                    <div class="box1">
+                        <ul>
+                            <li>Basic understanding of UX principles. <i>User Experience (UX) Design</i></li>
+                            <li>Proficient in HTML, CSS, JavaScript. <i>Web Development</i></li>
+                            <li>Familiar with security principles, encryption, and best practices. <i>Cybersecurity</i></li>
+                            <li>Proficient in languages such as Python, Java. <i>Programming and Coding</i></li>
+                            <li>Committed to ongoing learning to stay updated with industry trends. <i>Continuous Learning</i></li>
+                            <li>Able to work well in a team and collaborate across disciplines.</li>
+                            <li>Proficient in basic project management for IT projects.</li>
+                        </ul>
+                        
+                    </div>
+
+                </div>
+            </div>
+            
+<!--PROJECT SECTION-->
+            <div id="project">
+                <div class="projectt">
+                    <h3>PROJ<span>ECTS</span></h3>
+                    <h6>During my IT journey, I've worked on two official projects, with one being our capstone where I teamed up with three others. While my portfolio may not be overflowing, each project reflects my commitment to learning and are key markers of my hands-on experience and growth.</h6>
+                    
+                    <table>
+                        <tr>
+                            <td>
+                                <div class="square">
+                                    <img src="proj2.png" alt="PUP Hymn Lyrics" onclick="openLightbox('proj2.png')" />
+                                    <h1>PUP Hymn</h1>
+                                    <p>PUP Hymn is the first website I created as part of our activity. It is a lyrics audio website for our Sintang Paaralan's Hymn.</p>
+
+                                    <br><a href="https://naeiri.github.io/puphymn/puphymnportfolio.html" target="_blank"><i class="fa fa-link" aria-hidden="true"></i> Preview</a>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="extra">  </div>
+                            </td>
+                            <td>
+                                <div class="square">
+                                    <img src="proj1.png" alt="WISP" onclick="openLightbox('proj1.png')" />
+                                    <h1>WISP</h1>
+                                    <p>Wisp is a multimodal children learning application that bridges the gap between technology and handwriting.</p>
+
+                                    <br><a href="https://wisp-pi.vercel.app/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i> Preview</a>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><br><br></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="lightbox" id="lightbox">
+                <span class="close-btn" onclick="closeLightbox()">&times;</span>
+                <img src="" alt="Lightbox Image" id="lightbox-img">
+            </div>
+            
+            
+
+<!--CONTACT ME SECTION-->
+            <footer>
+                <h3>CONNECT WITH ME!</h3>
+
+                <div class="footer1">
+                    <div class="single-cta">
+                        <i class="fa fa-map-marker"></i>
+                        <div class="cta-text">
+                            <h4>Address</h4>
+                            <span>Rizal, Philippines</span>
+                        </div>
+                    </div>
+
+                    <div class="single-cta">
+                        <i class="fa fa-phone"></i>
+                        <div class="cta-text">
+                            <h4>Call</h4>
+                            <span>(+63) 961 610 4368</span>
+                        </div>
+                    </div>
+
+                    <div class="single-cta">
+                        <i class="fa fa-envelope"></i>
+                        <div class="cta-text">
+                            <h4>Email</h4>
+                            <a href=mailto:“yvanahbaconguis@gmail.com”><span>yvanahbaconguis@gmail.com</span></a>
+                        </div>
+                    </div>
+                </div>
+                
+            </footer>
+        </div>
+
+    </body>
+</html>
