@@ -219,6 +219,7 @@ span{
 @media screen and (max-width: 767px) {
     .box {
         border-radius: 10px;
+        margin-top: 5%;
     }
 
     #intro h1 {
