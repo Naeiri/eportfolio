@@ -162,8 +162,6 @@ span{
 }
 
 .box .photo {
-    max-width: 100%;
-    min-width: 100px;
     height: 300px;
     padding-left: 18%;
 }
