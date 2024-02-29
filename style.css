@@ -162,13 +162,13 @@ span{
 }
 
 .box .photo {
-    height: 300px;
-    padding-left: 18%;
+    height: 280px;
+    padding-left: 15%;
 }
 .box .text{
     position: relative;
     color: #990011;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
 }
 .box .text.first-text{
@@ -180,8 +180,8 @@ span{
     content: "";
     position: absolute;
     left: 0;
-    height: 55px;
-    width: 90%;
+    height: 41px;
+    width: 85%;
     background-color: white;
     border-left: 5px solid #990011;
     animation: animate 5s steps(40), blinking 1s infinite;
