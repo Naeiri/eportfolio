@@ -16,7 +16,7 @@ span{
 
 /*NAVIGATION BAR*/
 .navbar{
-    background-color: whitesmoke;
+    background-color: #FCF6F5;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -242,7 +242,7 @@ span{
 /*---------------------*/
 /*ABOUT ME SECTION*/
 .about{
-    background-color: #ffc0cb56;
+    background-color: #FCF6F5;
     padding: 55px;
     margin-top: 10%;
     margin-bottom: 10%;
@@ -358,7 +358,7 @@ span{
 /*---------------------*/
 /*PROJECTS SECTION*/
 .projectt{
-    background-color: #ffc0cb56;
+    background-color: #FCF6F5;
     padding: 55px;
     margin-top: 10%;
     margin-bottom: 10%;
