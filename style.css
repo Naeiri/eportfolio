@@ -502,7 +502,7 @@ footer h3 {
 
 .single-cta i {
     color: #990011;
-    font-size: 30px;
+    font-size: 28px;
     float: left;
     padding: 5px 0 0 5px;
 }
@@ -514,13 +514,13 @@ footer h3 {
 }
 .cta-text h4 {
     color: #151414;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
 
 }
 .cta-text span {
     color: #757575;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 @media screen and (max-width: 767px) {
