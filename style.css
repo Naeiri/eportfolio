@@ -11,7 +11,7 @@
     font-weight: bold;
 }
 span{
-    color: #db7093;
+    color: #990011;
 }
 
 /*NAVIGATION BAR*/
@@ -42,7 +42,7 @@ span{
 
 }
 .navbar ul li a:hover{
-    color: #db7093;
+    color: #990011;
 }
 .navbar ul li a:after{
     content: "";
@@ -50,7 +50,7 @@ span{
     left: 0;
     width: 0;
     height: 3px;
-    background: #d47e9b;
+    background: #990011;
     transition: .3s;
     bottom: 0;
 }
@@ -131,13 +131,13 @@ span{
     font-weight: 500;
     transition: all .4s ease-in-out;
     background-size: 152% 100%;
-    background: #db7093;
-    border: 2px solid #db7093;
+    background: #990011;
+    border: 2px solid #990011;
 }
 .btn:hover{
     background: transparent;
-    border-color: #db7093;
-    color: #db7093;
+    border-color: #990011;
+    color: #990011;
 }
 
 .resume {
@@ -185,6 +185,8 @@ span{
     text-align: left;
     align-items: center;
     padding: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .box {
     background-color: rgba(255, 255, 255, 0.7);
@@ -241,8 +243,9 @@ span{
 /*ABOUT ME SECTION*/
 .about{
     background-color: #ffc0cb56;
-    margin-top: 2%;
-    padding: 15px;
+    padding: 55px;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 .about h3 {
     font-size: 40px;
@@ -283,8 +286,9 @@ span{
 /*---------------------*/
 /*RESUME SECTION*/
 .resumee{
-    margin-top: 2%;
     padding: 15px;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 .resumee h5 {
     font-size: 40px;
@@ -355,8 +359,9 @@ span{
 /*PROJECTS SECTION*/
 .projectt{
     background-color: #ffc0cb56;
-    margin-top: 2%;
-    padding: 15px;
+    padding: 55px;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 .projectt h3 {
     font-size: 40px;
@@ -496,7 +501,7 @@ footer h3 {
 }
 
 .single-cta i {
-    color: #db7093;
+    color: #990011;
     font-size: 30px;
     float: left;
     padding: 5px 0 0 5px;
